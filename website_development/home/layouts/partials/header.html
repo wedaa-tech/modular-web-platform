@@ -1,0 +1,13 @@
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
+    <div>
+      <a href="/"><img src="{{ .Site.Params.Logo }}" alt="Logo" height="50"/></a>
+    </div>
+    <nav>
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" {{ if .Params.newTab }}target="_blank" rel="noopener"{{ end }} style="margin-left: 1rem;">
+          {{ .Name }}
+        </a>
+      {{ end }}
+    </nav>
+  </header>
+  
