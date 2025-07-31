@@ -20,14 +20,14 @@ title = "My Home Page"
 
   [[menu.main]]
     name = "Docs"
-    url = "http://localhost:3000"
+    url = "http://localhost:3001"
     weight = 3
     [menu.main.params]
       newTab = true
 
   [[menu.main]]
     name = "App"
-    url = "http://localhost:3001"
+    url = "http://localhost:3000"
     weight = 4
     [menu.main.params]
       newTab = true
